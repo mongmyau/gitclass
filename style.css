@@ -3,6 +3,13 @@
     margin: 0;
   
 }
+
+
+img{
+    max-width: 100%;
+}
+
+
 .header{
     text-align: center;
     text-transform: uppercase;
@@ -10,14 +17,14 @@
 .conteinar{
     width: 1080px;
     margin:auto;
+    background-color: darkturquoise;
 }
-image{
-    width: 40px;
-    height: 30px;
+.slider{
+    margin-bottom: 60px;
 }
 .navbar{
     overflow: hidden;
-    background-color: none;
+    background-color: red;
 }
 .logo{
     width: 10%;
@@ -31,6 +38,7 @@ image{
 .mainmenu ul {
     list-style: none;
     width: 1080px;
+    padding-bottom: 0;
 }
 .mainmenu ul li {
     float: left;
@@ -41,25 +49,47 @@ image{
     padding: 20px 50px;
     text-decoration: none;
     text-transform: uppercase;
+   
     
 }
 /*main section*/
-.container{
+.sbox{
+    float: left;
+    width: 45%;
+    display: block;
+    padding: 2%;
+    text-align: center;
+    border: 1px solid red;
+}
+.mainmenu ul li a:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.conteiner{
     width: 1080px;
     margin: auto;
+    background-color: darkturquoise;
 } 
-.boxraper{
-    display: block;
-    background-color: red;
+.bed{
+    padding-top: 20px;
+    text-align: center;
+}
+.boxraper2{
     overflow: hidden;
-    width: 50%;
-    float: left;
+    border: black;
+background-color: black;
+}
+.boxraper h2{
+    text-align: center;
+    padding: 10px;
 }
 .box{
-    width: 30%;
+    width: 46%;
     float: left;
    box-sizing: border-box;
-   margin: 5px;
+  padding-left: 20px;
+  padding:2%;
+ 
 }
 .box a{
     text-decoration: none;
@@ -70,7 +100,7 @@ image{
     width: 50%;
 }
 .box a:hover{
-    background-color: grey;
+    background-color: darkturquoise;
     color: white;
 }
 .box h2{
