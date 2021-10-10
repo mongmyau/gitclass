@@ -24,7 +24,7 @@ img{
 }
 .navbar{
     overflow: hidden;
-    background-color: red;
+    background-color: darkturquoise;
 }
 .logo{
     width: 10%;
@@ -98,6 +98,7 @@ background-color: black;
     display: block;
     margin: 0 0;
     width: 50%;
+    text-align: justify;
 }
 .box a:hover{
     background-color: darkturquoise;
@@ -106,4 +107,11 @@ background-color: black;
 .box h2{
     color: green;
     padding-bottom: 10px;
+}
+.footer{
+    background-color: black;
+    overflow: hidden;
+    width: 1080px;
+    margin: auto;
+    padding: 20px;
 }
